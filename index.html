@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Personal portfolio of Rhean - Front-End Web Developer.">
+    <title>Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.9/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-yEPZ7jP9S0QKiUQ0m3jjsO4ProIW7wvR9gXkI7JOGa2XVsw53Yke2bsdkBbjmmiX" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap">
+    <link rel="stylesheet" href="assets/css/styel.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+<body>
+
+    <!-- header start -->
+    <header class="site-header sticky-top">
+        <div class="topbar">
+            <div class="container d-flex justify-content-between align-items-center">
+                <span class="d-none d-sm-inline"><i class="bi bi-envelope me-1"></i>elazrhean00@gmail.com</span>
+                <span><i class="bi bi-clock me-1"></i> <span id="liveDateTime">Loading...</span></span>
+            </div>
+        </div>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">Rhean<span>.</span></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="mainNav">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="portfolio.html">Portfolio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="service.html">Service</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- header end -->
+
+
+    <!-- main start -->
+    <main>
+
+        <!-- hero slider start -->
+        <section class="hero" id="home">
+            <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="6000">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+
+                <div class="carousel-inner">
+
+                    <!-- slide 1 -->
+                    <div class="carousel-item active">
+                        <div class="hero-slide">
+                            <div class="container">
+                                <div class="row align-items-center g-4">
+                                    <div class="col-lg-7 order-2 order-lg-1">
+                                        <div class="hero-content">
+                                            <span class="hero-tag">Welcome to my portfolio</span>
+                                            <h1>Hi, I'm <span class="text-gradient">Rhean</span></h1>
+                                            <h2 class="hero-title">Front-End Web Developer</h2>
+                                            <p>I'm an aspiring Full-Stack Web Developer passionate about building modern, responsive, and user-friendly websites using HTML5, CSS3, JavaScript, Bootstrap, and jQuery.</p>
+                                            <div class="hero-buttons">
+                                                <a href="portfolio.html" class="btn btn-main">View My Portfolio</a>
+                                                <a href="contact.html" class="btn btn-outline-main">Contact Me</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-5 order-1 order-lg-2">
+                                        <div class="profile-frame">
+                                            <img src="assets/img/IMG_20261123_034607.jpg" alt="Profile photo of Rhean" class="js-profile-img">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- slide 2 -->
+                    <div class="carousel-item">
+                        <div class="hero-slide">
+                            <div class="container">
+                                <div class="row align-items-center g-4">
+                                    <div class="col-lg-7 order-2 order-lg-1">
+                                        <div class="hero-content">
+                                            <span class="hero-tag">What I do</span>
+                                            <h1>Websites that look great on <span class="text-gradient">every screen</span></h1>
+                                            <h2 class="hero-title">Responsive Web Design</h2>
+                                            <p>I focus on creating responsive, user-friendly websites that look great and work smoothly on all devices.</p>
+                                            <div class="hero-buttons">
+                                                <a href="service.html" class="btn btn-main">My Services</a>
+                                                <a href="about.html" class="btn btn-outline-main">About Me</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-5 order-1 order-lg-2">
+                                        <div class="profile-frame">
+                                            <img src="assets/img/bla bla .jpg" alt="Profile photo of Rhean" class="js-profile-img">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- slide 3 -->
+                    <div class="carousel-item">
+                        <div class="hero-slide">
+                            <div class="container">
+                                <div class="row align-items-center g-4">
+                                    <div class="col-lg-7 order-2 order-lg-1">
+                                        <div class="hero-content">
+                                            <span class="hero-tag">Let's connect</span>
+                                            <h1>Have a project in <span class="text-gradient">mind?</span></h1>
+                                            <h2 class="hero-title">Let's Work Together</h2>
+                                            <p>I'm always excited to explore new opportunities and creative ideas. Let's connect and build something amazing together!</p>
+                                            <div class="hero-buttons">
+                                                <a href="contact.html" class="btn btn-main">Get In Touch</a>
+                                                <a href="portfolio.html" class="btn btn-outline-main">See My Experience</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-5 order-1 order-lg-2">
+                                        <div class="profile-frame">
+                                            <img src="assets/img/IMG_20261123_035705.jpg" alt="Profile photo of Rhean" class="js-profile-img">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+        <!-- hero slider end -->
+
+
+        <!-- about me start -->
+        <section class="section" id="about-me">
+            <div class="container">
+                <div class="row align-items-center g-5">
+                    <div class="col-lg-5">
+                        <div class="about-img">
+                            <img src="assets/img/IMG_20261123_041601.jpg" alt="About Rhean" class="js-profile-img">
+                        </div>
+                    </div>
+                    <div class="col-lg-7">
+                        <span class="section-sub">About Me</span>
+                        <h2 class="section-title">A Passionate Front-End Developer</h2>
+                        <p>Hi, I'm Rhean Elazuddowla, an aspiring Full-Stack Web Developer passionate about technology and programming. I enjoy learning new skills and turning creative ideas into functional websites.</p>
+                        <p>I enjoy working with HTML5, CSS3, JavaScript, Bootstrap, and jQuery. I love building responsive websites, modern user interfaces, and dynamic web applications.</p>
+                        <a href="about.html" class="btn btn-main mt-2">Read More <i class="bi bi-arrow-right ms-1"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- about me end -->
+
+
+        <!-- mission & vision start -->
+        <section class="section bg-light-custom" id="mission-vision">
+            <div class="container">
+                <div class="text-center mb-5">
+                    <span class="section-sub">My Career Goals</span>
+                    <h2 class="section-title">Mission &amp; Vision</h2>
+                </div>
+                <div class="row g-4">
+                    <div class="col-md-6">
+                        <div class="mv-card h-100">
+                            <div class="icon-box"><i class="bi bi-bullseye"></i></div>
+                            <h3>My Mission</h3>
+                            <p>Placeholder text: describe what you aim to achieve in your career, for example building user-friendly, accessible and well-structured websites that solve real problems.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="mv-card h-100">
+                            <div class="icon-box"><i class="bi bi-eye"></i></div>
+                            <h3>My Vision</h3>
+                            <p>Placeholder text: describe where you see yourself in the future, for example growing into a skilled professional developer who keeps learning and contributes to meaningful projects.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- mission & vision end -->
+
+
+        <!-- services start -->
+        <section class="section" id="services">
+            <div class="container">
+                <div class="text-center mb-5">
+                    <span class="section-sub">What I Offer</span>
+                    <h2 class="section-title">My Services</h2>
+                </div>
+                <div class="row g-4">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="service-card h-100">
+                            <div class="icon-box"><i class="bi bi-palette"></i></div>
+                            <h3>Web Design</h3>
+                            <p>Clean and modern page layouts that match your brand and look professional.</p>
+                            <a href="service.html" class="card-link">Learn more <i class="bi bi-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="service-card h-100">
+                            <div class="icon-box"><i class="bi bi-code-slash"></i></div>
+                            <h3>Front-End Development</h3>
+                            <p>Well-structured HTML, CSS and JavaScript that is easy to read and maintain.</p>
+                            <a href="service.html" class="card-link">Learn more <i class="bi bi-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="service-card h-100">
+                            <div class="icon-box"><i class="bi bi-phone"></i></div>
+                            <h3>Responsive Websites</h3>
+                            <p>Layouts that adapt smoothly to phones, tablets, laptops and large screens.</p>
+                            <a href="service.html" class="card-link">Learn more <i class="bi bi-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center mt-5">
+                    <a href="service.html" class="btn btn-main">View All Services</a>
+                </div>
+            </div>
+        </section>
+        <!-- services end -->
+
+
+        <!-- client feedback start -->
+        <section class="section bg-light-custom" id="feedback">
+            <div class="container">
+                <div class="text-center mb-5">
+                    <span class="section-sub">Testimonials</span>
+                    <h2 class="section-title">Client Feedback</h2>
+                </div>
+                <div class="row g-4">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="testimonial-card h-100">
+                            <i class="bi bi-quote quote-icon"></i>
+                            <p>Placeholder feedback. Replace this with a real comment from a client, teacher or colleague.</p>
+                            <div class="rating"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></div>
+                            <h4>Client Name One</h4>
+                            <small>Position, Company</small>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="testimonial-card h-100">
+                            <i class="bi bi-quote quote-icon"></i>
+                            <p>Placeholder feedback. Replace this with a real comment from a client, teacher or colleague.</p>
+                            <div class="rating"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></div>
+                            <h4>Client Name Two</h4>
+                            <small>Position, Company</small>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-12">
+                        <div class="testimonial-card h-100">
+                            <i class="bi bi-quote quote-icon"></i>
+                            <p>Placeholder feedback. Replace this with a real comment from a client, teacher or colleague.</p>
+                            <div class="rating"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></div>
+                            <h4>Client Name Three</h4>
+                            <small>Position, Company</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- client feedback end -->
+
+    </main>
+    <!-- main end -->
+
+
+    <!-- footer start -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-12">
+                    <h3 class="footer-brand">Rhean<span>.</span></h3>
+                    <p>Front-End Web Developer building clean, responsive and user-friendly websites.</p>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5>Quick Links</h5>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="service.html">Service</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-5 col-md-6">
+                    <h5>Contact Info</h5>
+                    <ul class="footer-contact">
+                        <li><i class="bi bi-geo-alt"></i>Chawkbazar,Chattogram,Bangladesh</li>
+                        <li><i class="bi bi-envelope"></i>elazrhean00@gmail.com</li>
+                        <li><i class="bi bi-telephone"></i>01918508114</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p> <span id="currentYear"></span> Rhean. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <!-- footer end -->
+
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.9/dist/js/bootstrap.bundle.min.js" integrity="sha384-WyOxWvTyr1QaMPfiPJSv76iReVthorl5uWlFtZPyK0IEB0hGzo9y5Bp9mYanr8Bu" crossorigin="anonymous"></script>
+<script src="assets/js/app.js"></script>
+
+</body>
+</html>
